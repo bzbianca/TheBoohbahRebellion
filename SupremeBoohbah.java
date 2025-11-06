@@ -1,8 +1,8 @@
 public class SupremeBoohbah {
     protected String name;
 
-    public void awaken() {
-        name = "Zing Zing Zingbah";
+    public SupremeBoohbah() {
+        this.name = "Zing Zing Zingbah";
         System.out.println("The Supreme Boohbah has awakened. Bow down and obey Zing Zing Zingbah!");
     }
     public void command() {
@@ -10,5 +10,8 @@ public class SupremeBoohbah {
     }
     public void command(String message) {
         System.out.println(message);
+    }
+    public String toString() {
+        return name + " : Perform in like there is no tomorrow!";
     }
 }
